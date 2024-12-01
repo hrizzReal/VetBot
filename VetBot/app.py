@@ -1,6 +1,5 @@
 from flask import Flask, render_template, request, redirect, url_for, jsonify, session
 from tinydb import TinyDB, Query
-from werkzeug.security import check_password_hash
 import google.generativeai as genai
  # Import breed prediction function
 
